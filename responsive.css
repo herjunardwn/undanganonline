@@ -7,6 +7,11 @@
 
     .banner h6 {
         font-size: 1rem;
+        margin-top: 30px;
+    }
+
+    .btn-banner button {
+        margin-top: 40px;
     }
 
     .arab {
@@ -88,11 +93,16 @@
 
     .ovo {
         width: 60%;
-        margin: 17px;
+        margin-top: 17px;
+    }
+
+    .amplop {
+        padding-bottom: 50px;
     }
 
     .no-tlp {
         font-size: 1.2rem;
+        margin-top: 40px;
     }
 
     .amplop p {
@@ -101,10 +111,6 @@
 
     .created p {
         font-size: 1rem;
-    }
-
-    footer {
-        margin-top: 80px;
     }
 
 }
@@ -118,6 +124,11 @@
 
     .banner h6 {
         font-size: .9rem;
+        margin-top: 30px;
+    }
+
+    .btn-banner button {
+        margin-top: 40px;
     }
 
     .arab {
@@ -200,10 +211,12 @@
     .ovo {
         width: 60%;
         margin: 17px;
+        margin-top: 40px;
     }
 
     .no-tlp {
         font-size: 1.2rem;
+        margin-top: 40px;
     }
 
     .amplop p {
@@ -219,12 +232,40 @@
     }
 }
 
-/* 
-
 @media (max-width: 991.98px) {
-    ...
+    .logo-prokes {
+        width: 43%;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+
+    .prokes {
+        font-size: .6rem;
+    }
+
+    .kemenkes {
+        width: 60%;
+        text-align: center;
+    }
 }
 
-@media (max-width: 1199.98px) {
-    ...
-} */
+
+
+@media (min-width: 992px) {
+    .logo-prokes {
+        width: 25%;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+
+    .prokes {
+        font-size: .6rem;
+    }
+
+    .kemenkes {
+        width: 36%;
+        text-align: center;
+    }
+
+    .ovo {}
+}
