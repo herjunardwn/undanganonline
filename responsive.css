@@ -1,0 +1,230 @@
+@media (max-width: 575.98px) {
+
+    .banner h1,
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    .banner h6 {
+        font-size: 1rem;
+    }
+
+    .arab {
+        font-size: 2.1rem;
+    }
+
+    .greet {
+        text-align: justify;
+        font-size: 1.1rem;
+    }
+
+    .mempelai p {
+        text-align: justify;
+    }
+
+    .judul-mempelai {
+        font-size: 2.8rem;
+    }
+
+    .text-mempelai h6 {
+        font-size: 2.1rem;
+    }
+
+    .text-mempelai p {
+        font-size: .8rem;
+    }
+
+    .std h4 {
+        font-size: 1.9rem;
+    }
+
+    .std p {
+        font-size: .8rem;
+    }
+
+    .resepsi {
+        font-size: 2.8rem;
+    }
+
+    .alamat {
+        font-size: 1rem;
+    }
+
+    .covid {
+        font-size: 1rem;
+    }
+
+    .text-covid1 {
+        font-size: 2rem;
+    }
+
+    .text-covid2 {
+        font-size: 1rem;
+    }
+
+    .logo-prokes {
+        width: 43%;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+
+    .prokes {
+        font-size: .6rem;
+    }
+
+    .kemenkes {
+        width: 60%;
+        text-align: center;
+    }
+
+    .note h2 {
+        font-size: 2.5rem;
+    }
+
+    .note p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .ovo {
+        width: 60%;
+        margin: 17px;
+    }
+
+    .no-tlp {
+        font-size: 1.2rem;
+    }
+
+    .amplop p {
+        font-size: 1rem;
+    }
+
+    .created p {
+        font-size: 1rem;
+    }
+
+    footer {
+        margin-top: 80px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+
+    .banner h1,
+    h2 {
+        font-size: 3.3rem;
+    }
+
+    .banner h6 {
+        font-size: .9rem;
+    }
+
+    .arab {
+        font-size: 2.1rem;
+    }
+
+    .greet {
+        text-align: justify;
+        font-size: 1.1rem;
+    }
+
+    .mempelai p {
+        text-align: justify;
+    }
+
+    .judul-mempelai {
+        font-size: 2.8rem;
+    }
+
+    .text-mempelai h6 {
+        font-size: 2.1rem;
+    }
+
+    .text-mempelai p {
+        font-size: .8rem;
+    }
+
+    .std h4 {
+        font-size: 1.9rem;
+    }
+
+    .std p {
+        font-size: .8rem;
+    }
+
+    .resepsi {
+        font-size: 2.8rem;
+    }
+
+    .alamat {
+        font-size: 1rem;
+    }
+
+    .covid {
+        font-size: 1rem;
+    }
+
+    .text-covid1 {
+        font-size: 2rem;
+    }
+
+    .text-covid2 {
+        font-size: 1rem;
+    }
+
+    .logo-prokes {
+        width: 43%;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+
+    .prokes {
+        font-size: .6rem;
+    }
+
+    .kemenkes {
+        width: 60%;
+        text-align: center;
+    }
+
+    .note h2 {
+        font-size: 2.5rem;
+    }
+
+    .note p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .ovo {
+        width: 60%;
+        margin: 17px;
+    }
+
+    .no-tlp {
+        font-size: 1.2rem;
+    }
+
+    .amplop p {
+        font-size: 1rem;
+    }
+
+    .created p {
+        font-size: 1rem;
+    }
+
+    footer {
+        margin-top: 80px;
+    }
+}
+
+/* 
+
+@media (max-width: 991.98px) {
+    ...
+}
+
+@media (max-width: 1199.98px) {
+    ...
+} */

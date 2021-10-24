@@ -1,0 +1,239 @@
+img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(76, 76, 76)
+}
+
+.arab {
+    color: rgb(90, 89, 89);
+    font-size: 2rem;
+
+}
+
+.hero-section::after {
+    content: '';
+    top: 0;
+    background-image: linear-gradient(to bottom, rgb(216, 182, 206), rgba(0, 0, 0, 0));
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.banner h1,
+h2 {
+    font-family: 'tangerine';
+    font-weight: 700;
+    font-size: 4.8rem;
+}
+
+.banner h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.btn-banner button:hover {
+    background-color: rgb(216, 182, 206);
+    box-shadow: 0 0 5px rgb(216, 182, 206);
+
+}
+
+
+.alamat {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.judul-mempelai {
+    font-size: 3.2rem;
+}
+
+.mempelai {
+    background-color: rgb(240, 239, 239);
+}
+
+.mempelai p {
+    text-align: center;
+}
+
+.akad {
+    background-color: rgb(240, 239, 239);
+}
+
+.card-text {
+    font-family: "tangerine";
+    font-weight: bold;
+}
+
+.text-mempelai h6 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.text-mempelai p {
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.std h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.4rem;
+    color: rgb(182, 150, 172);
+}
+
+.std p {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* Google Maps */
+[style*="--aspect-ratio"]> :first-child {
+    width: 100%;
+}
+
+[style*="--aspect-ratio"]>img {
+    height: auto;
+}
+
+@supports (--custom:property) {
+    [style*="--aspect-ratio"] {
+        position: relative;
+    }
+
+    [style*="--aspect-ratio"]::before {
+        content: "";
+        display: block;
+        padding-bottom: calc(100% / (var(--aspect-ratio)));
+    }
+
+    [style*="--aspect-ratio"]> :first-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+}
+
+/* akhir Google maps */
+
+.covid {
+    background-color: rgb(216, 182, 206);
+    display: block;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h4 {
+    font-size: 2.5rem;
+}
+
+span {
+    color: rgb(182, 150, 172);
+}
+
+.logo-prokes {
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prokes {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.img-thumbnail {
+    border: none;
+    margin-top: -30px;
+    width: 70%;
+}
+
+.kemenkes {
+    width: 25%;
+    padding: 30px;
+}
+
+.note {
+    background-color: rgb(240, 239, 239);
+}
+
+.note h2 {
+    color: rgb(192, 157, 182);
+    font-size: 4rem;
+}
+
+.note p {
+    color: rgb(97, 94, 94);
+    text-align: center;
+}
+
+.btn-custom {
+    background-color: rgb(182, 150, 172);
+    padding: 8px 30px;
+    margin: 10px;
+
+}
+
+.btn-custom:hover {
+    background-color: rgb(53, 27, 45);
+}
+
+.ovo {
+    width: 25%;
+    margin: 30px auto;
+}
+
+.no-tlp {
+    font-size: 1.5rem;
+}
+
+footer {
+    margin-top: 150px;
+    padding-top: 70px;
+}
+
+.created p {
+    text-align: center;
+    color: rgb(76, 76, 76);
+    font-size: 1rem;
+}
+
+footer .icon {
+    text-align: center;
+    color: rgb(76, 76, 76);
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+/* footer p {
+    margin-left: 5px;
+    color: rgb(182, 150, 172);
+}
+
+footer .icon {
+    margin-right: 20px;
+    
+    padding-right: 10px;
+}
+
+.icon:hover {
+    cursor: pointer;
+} */
