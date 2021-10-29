@@ -219,8 +219,14 @@ footer .icon {
     color: rgb(76, 76, 76);
 }
 
-.icon:hover {
+.icon a {
+    color: rgb(76, 76, 76);
+    margin-right: 10px;
+}
+
+.icon a:hover {
     cursor: pointer;
+    color: black;
 }
 
 /* footer p {
