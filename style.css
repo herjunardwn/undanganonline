@@ -226,20 +226,28 @@ footer .icon {
 
 .icon a:hover {
     cursor: pointer;
-    color: black;
 }
 
-/* footer p {
-    margin-left: 5px;
-    color: rgb(182, 150, 172);
+.bi-facebook {
+    color: #488CF0;
 }
 
-footer .icon {
-    margin-right: 20px;
-    
-    padding-right: 10px;
+.bi-facebook:hover {
+    color: #3360a3;
 }
 
-.icon:hover {
-    cursor: pointer;
-} */
+.bi-instagram {
+    color: #D12C84;
+}
+
+.bi-instagram:hover {
+    color: #ad226c;
+}
+
+.bi-whatsapp {
+    color: #64CE60;
+}
+
+.bi-whatsapp:hover {
+    color: #499b46;
+}
