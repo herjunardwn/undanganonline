@@ -76,6 +76,12 @@ h2 {
 
 .akad {
     background-color: #f5f5f5;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card-body {
+    box-shadow: 0px 2px 18px rgb(0 0 0 / 10%);
 }
 
 .card-text {
