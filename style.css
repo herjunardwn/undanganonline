@@ -20,10 +20,13 @@ p {
     color: rgb(76, 76, 76)
 }
 
+.greet {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .arab {
     color: #333;
-    font-size: 2rem;
-
+    font-size: 2.2rem;
 }
 
 .hero-section::after {
@@ -38,13 +41,12 @@ p {
 
 .banner h1,
 h2 {
-    font-family: 'tangerine';
-    font-weight: 700;
+    font-family: 'Great Vibes', cursive;
     font-size: 4.8rem;
 }
 
 .banner h6 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 30px;
     font-size: 1.2rem;
 }
@@ -64,6 +66,7 @@ h2 {
 
 .judul-mempelai {
     font-size: 3.2rem;
+    font-family: 'Satisfy', cursive;
 }
 
 .mempelai {
@@ -102,7 +105,7 @@ h2 {
 }
 
 .std h4 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Satisfy', cursive;
     font-size: 2.4rem;
     color: rgb(182, 150, 172);
 }
@@ -113,7 +116,10 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
+.resepsi {
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+}
 
 /* Google Maps */
 [style*="--aspect-ratio"]> :first-child {
@@ -194,12 +200,14 @@ span {
 
 .note h2 {
     color: #333;
-    font-size: 4rem;
+    font-size: 3rem;
+    font-family: 'Satisfy', cursive;
 }
 
 .note p {
     color: rgb(97, 94, 94);
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn-custom {
