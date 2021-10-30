@@ -5,6 +5,15 @@ img {
     object-position: top;
 }
 
+a {
+    text-decoration: none;
+}
+
+.hiasan {
+    width: 100%;
+    text-align: center;
+}
+
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2rem;
