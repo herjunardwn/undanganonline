@@ -91,12 +91,13 @@
         text-align: justify;
     }
 
-    .ovo {
-        width: 60%;
+    .amplop-item .ovo {
+        padding-bottom: 0px;
     }
 
-    .amplop {
-        padding-bottom: 0px;
+    .amplop-item .linkAja {
+        width: 100%;
+        padding-bottom: 0;
     }
 
     .no-tlp {
@@ -209,8 +210,12 @@
 
     .ovo {
         width: 60%;
-        margin-top: 20px;
+        padding-bottom: 0;
+    }
 
+    .amplop-item .linkAja {
+        width: 90%;
+        padding-bottom: 0;
     }
 
     .no-tlp {

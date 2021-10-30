@@ -21,7 +21,7 @@ p {
 }
 
 .arab {
-    color: rgb(90, 89, 89);
+    color: #333;
     font-size: 2rem;
 
 }
@@ -51,7 +51,9 @@ h2 {
 
 .btn-banner button:hover {
     background-color: rgb(216, 182, 206);
-    box-shadow: 0 0 5px rgb(216, 182, 206);
+    border-color: rgb(216, 182, 206);
+    transition: .8s;
+    color: #fff;
 
 }
 
@@ -65,7 +67,7 @@ h2 {
 }
 
 .mempelai {
-    background-color: rgb(240, 239, 239);
+    background-color: #f5f5f5;
 }
 
 .mempelai p {
@@ -73,7 +75,7 @@ h2 {
 }
 
 .akad {
-    background-color: rgb(240, 239, 239);
+    background-color: #f5f5f5;
 }
 
 .card-text {
@@ -84,6 +86,7 @@ h2 {
 .text-mempelai h6 {
     font-size: 2.5rem;
     font-weight: 700;
+    color: #333;
 }
 
 .text-mempelai p {
@@ -101,7 +104,7 @@ h2 {
 .std p {
     font-size: 1rem;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -146,6 +149,7 @@ h2 {
 
 h4 {
     font-size: 2.5rem;
+    color: #333;
 }
 
 span {
@@ -179,11 +183,11 @@ span {
 }
 
 .note {
-    background-color: rgb(240, 239, 239);
+    background-color: #f5f5f5;
 }
 
 .note h2 {
-    color: rgb(77, 24, 62);
+    color: #333;
     font-size: 4rem;
 }
 
@@ -193,19 +197,39 @@ span {
 }
 
 .btn-custom {
-    background-color: rgb(77, 24, 62);
+    background-color: #7356A3;
     padding: 8px 30px;
     margin: 10px;
 
 }
 
 .btn-custom:hover {
-    background-color: rgb(167, 82, 141);
+    background-color: rgb(33, 33, 33);
+}
+
+.amplop {
+    background-color: #f5f5f5;
+}
+
+.amplop-item {
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    border-radius: 20px;
 }
 
 .ovo {
-    width: 25%;
-    margin: 20px auto;
+    width: 30%;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.linkAja {
+    width: 45%;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
 }
 
 .no-tlp {
