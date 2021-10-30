@@ -183,7 +183,7 @@ span {
 }
 
 .note h2 {
-    color: rgb(192, 157, 182);
+    color: rgb(77, 24, 62);
     font-size: 4rem;
 }
 
@@ -193,19 +193,19 @@ span {
 }
 
 .btn-custom {
-    background-color: rgb(182, 150, 172);
+    background-color: rgb(77, 24, 62);
     padding: 8px 30px;
     margin: 10px;
 
 }
 
 .btn-custom:hover {
-    background-color: rgb(53, 27, 45);
+    background-color: rgb(167, 82, 141);
 }
 
 .ovo {
     width: 25%;
-    margin: 61px auto;
+    margin: 20px auto;
 }
 
 .no-tlp {

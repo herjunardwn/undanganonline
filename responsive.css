@@ -93,11 +93,10 @@
 
     .ovo {
         width: 60%;
-        margin-top: 17px;
     }
 
     .amplop {
-        padding-bottom: 50px;
+        padding-bottom: 0px;
     }
 
     .no-tlp {
@@ -210,8 +209,8 @@
 
     .ovo {
         width: 60%;
-        margin: 17px;
-        margin-top: 40px;
+        margin-top: 20px;
+
     }
 
     .no-tlp {
@@ -266,6 +265,4 @@
         width: 36%;
         text-align: center;
     }
-
-    .ovo {}
 }
