@@ -22,6 +22,8 @@ p {
 
 .greet {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .arab {
@@ -65,7 +67,7 @@ h2 {
 }
 
 .judul-mempelai {
-    font-size: 3.2rem;
+    font-size: 3rem;
     font-family: 'Satisfy', cursive;
 }
 
@@ -155,7 +157,7 @@ h2 {
     background-color: rgb(216, 182, 206);
     display: block;
     width: 100px;
-    border-radius: 10px;
+    border-radius: 50px;
     padding: 5px;
 }
 
