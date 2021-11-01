@@ -94,7 +94,6 @@ h2 {
 
 }
 
-
 .alamat {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -159,6 +158,19 @@ h2 {
     color: rgb(182, 150, 172);
 }
 
+.btn-maps {
+    border: 2px solid;
+}
+
+.btn-maps a {
+    color: #333;
+    font-weight: bold;
+}
+
+.btn-maps a:hover {
+    color: #fff;
+}
+
 
 .covid {
     background-color: rgb(216, 182, 206);
@@ -199,6 +211,12 @@ span {
 .kemenkes {
     width: 25%;
     padding: 30px;
+}
+
+.prewed img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .note {
