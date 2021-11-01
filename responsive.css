@@ -20,7 +20,7 @@
 
     .greet {
         text-align: justify;
-        font-size: .9rem;
+        font-size: .8rem;
     }
 
     .mempelai p {
@@ -137,7 +137,7 @@
 
     .greet {
         text-align: justify;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .mempelai p {
@@ -154,6 +154,7 @@
 
     .text-mempelai p {
         font-size: .8rem;
+        text-align: center;
     }
 
     .std h4 {
@@ -240,7 +241,7 @@
     .logo-prokes {
         width: 43%;
         padding-bottom: 10px;
-        margin: 0;
+        margin: 10px;
     }
 
     .prokes {
@@ -257,17 +258,19 @@
 
 @media (min-width: 992px) {
     .logo-prokes {
-        width: 25%;
+        width: 20%;
         padding-bottom: 10px;
-        margin: 0;
+        margin: 10px;
+        box-sizing: border-box;
+
     }
 
     .prokes {
-        font-size: .6rem;
+        font-size: 1rem;
     }
 
     .kemenkes {
-        width: 36%;
+        width: 25%;
         text-align: center;
     }
 }

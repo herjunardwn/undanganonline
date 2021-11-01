@@ -1,3 +1,35 @@
+/* Google Maps */
+
+[style*="--aspect-ratio"]> :first-child {
+    width: 100%;
+}
+
+[style*="--aspect-ratio"]>img {
+    height: auto;
+}
+
+@supports (--custom:property) {
+    [style*="--aspect-ratio"] {
+        position: relative;
+    }
+
+    [style*="--aspect-ratio"]::before {
+        content: "";
+        display: block;
+        padding-bottom: calc(100% / (var(--aspect-ratio)));
+    }
+
+    [style*="--aspect-ratio"]> :first-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+}
+
+/* akhir Google maps */
+
+
 img {
     height: 100vh;
     width: 100%;
@@ -29,6 +61,7 @@ p {
 .arab {
     color: #333;
     font-size: 2.2rem;
+    color: rgb(182, 150, 172);
 }
 
 .hero-section::after {
@@ -69,6 +102,7 @@ h2 {
 .judul-mempelai {
     font-size: 3rem;
     font-family: 'Satisfy', cursive;
+    color: rgb(182, 150, 172);
 }
 
 .mempelai {
@@ -83,6 +117,7 @@ h2 {
     background-color: #f5f5f5;
     padding: 20px;
     box-sizing: border-box;
+    margin: 15px;
 }
 
 .card-body {
@@ -121,41 +156,9 @@ h2 {
 .resepsi {
     font-family: 'Satisfy', cursive;
     font-size: 3rem;
+    color: rgb(182, 150, 172);
 }
 
-.akad {
-    margin: 20px;
-}
-
-/* Google Maps */
-[style*="--aspect-ratio"]> :first-child {
-    width: 100%;
-}
-
-[style*="--aspect-ratio"]>img {
-    height: auto;
-}
-
-@supports (--custom:property) {
-    [style*="--aspect-ratio"] {
-        position: relative;
-    }
-
-    [style*="--aspect-ratio"]::before {
-        content: "";
-        display: block;
-        padding-bottom: calc(100% / (var(--aspect-ratio)));
-    }
-
-    [style*="--aspect-ratio"]> :first-child {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-    }
-}
-
-/* akhir Google maps */
 
 .covid {
     background-color: rgb(216, 182, 206);
@@ -174,13 +177,12 @@ span {
     color: rgb(182, 150, 172);
 }
 
+
 .logo-prokes {
     box-sizing: border-box;
-    padding: 30px;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    padding: 50px;
+    box-shadow: 2px 0 35px 0 rgb(68 88 144 / 10%);
+    object-fit: cover;
 }
 
 .prokes {
@@ -192,7 +194,6 @@ span {
 .img-thumbnail {
     border: none;
     margin-top: -30px;
-    width: 70%;
 }
 
 .kemenkes {
@@ -205,7 +206,7 @@ span {
 }
 
 .note h2 {
-    color: #333;
+    color: rgb(182, 150, 172);
     font-size: 3rem;
     font-family: 'Satisfy', cursive;
 }
@@ -312,7 +313,7 @@ footer .icon {
     transform: rotate(180deg);
     bottom: initial;
     top: 0;
-    height: 5em
+    height: 5em;
 }
 
 #footer-navmenu {
@@ -329,16 +330,16 @@ footer .icon {
 
 #footer-navmenu ul {
     list-style: none;
-    margin: 0
+    margin: 0;
 }
 
 #footer-navmenu ul li {
     display: inline-block;
-    margin: 6px 0
+    margin: 6px 0;
 }
 
 #footer-navmenu ul li:last-child::after {
-    content: ""
+    content: "";
 }
 
 #footer-container {
@@ -353,12 +354,12 @@ footer .icon {
     max-height: 100vh;
     margin: 0;
     position: absolute;
-    bottom: -10px
+    bottom: -10px;
 }
 
 .wave-bg>use {
     -webkit-animation: move-forever 20s linear infinite;
-    animation: move-forever 20s linear infinite
+    animation: move-forever 20s linear infinite;
 }
 
 .wave-bg>use:nth-child(1) {
@@ -374,35 +375,35 @@ footer .icon {
 
 .wave-bg>use:nth-child(3) {
     animation-delay: -4s;
-    animation-duration: 8s
+    animation-duration: 8s;
 }
 
 @-webkit-keyframes move-forever {
     0% {
-        transform: translate(-90px, 0%)
+        transform: translate(-90px, 0%);
     }
 
     100% {
-        transform: translate(85px, 0%)
+        transform: translate(85px, 0%);
     }
 }
 
 @keyframes move-forever {
     0% {
-        transform: translate(-90px, 0%)
+        transform: translate(-90px, 0%);
     }
 
     100% {
-        transform: translate(85px, 0%)
+        transform: translate(85px, 0%);
     }
 }
 
 .wave-animation {
-    height: 3em
+    height: 3em;
 }
 
 .wave-animation {
-    height: 4em
+    height: 4em;
 }
 
 /* Akhir Animasi Gelombang */
