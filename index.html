@@ -305,29 +305,42 @@
 
       <div class="row">
         <div class="col-12" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="1500">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"></label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Masukan Nama">
+          <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+            <strong>Terima Kasih!</strong> Pesan anda sudah di terima.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>
-
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Hadir</option>
-            <option value="2">Belum Pasti</option>
-            <option value="3">Tidak Hadir</option>
-          </select>
-
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"></label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Ucapan Dan Doa"
-              rows="3"></textarea>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-12 text-center">
-              <button type="button" class="btn btn-custom rounded-pill text-light btn-lg">Kirim</button>
+          <form name='form-ucapan'>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Masukan Nama"
+                name="nama">
             </div>
-          </div>
 
+            <select class="form-select" aria-label="Default select example" name="hadir/tidak">
+              <option selected>Hadir</option>
+              <option value="2">Belum Pasti</option>
+              <option value="3">Tidak Hadir</option>
+            </select>
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Ucapan Dan Doa" rows="3"
+                name="pesan"></textarea>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <button type="submit" class="btn btn-custom rounded-pill text-light btn-lg btn-kirim">Kirim</button>
+                <button class="btn btn-primary btn-custom rounded-pill text-light btn-lg btn-loading d-none"
+                  type="button" disabled>
+                  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                  Loading...
+                </button>
+              </div>
+
+
+            </div>
+          </form>
         </div>
       </div>
     </div>
@@ -427,6 +440,41 @@
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+
+  <!-- Form Script -->
+  <script>
+    const scriptURL =
+      'https://script.google.com/macros/s/AKfycbzb2sEI4Vbugvt35y0gxzVcd6hte5kiG5Pp7M-VgIdgu1tzasu_GepHi9cV3b3P0pM/exec'
+    const form = document.forms['form-ucapan'];
+    const btnKirim = document.querySelector('.btn-kirim');
+    const btnLoading = document.querySelector('.btn-loading');
+    const myAlert = document.querySelector('.my-alert');
+
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      // ketika tombol submit di klik
+      // tampilkan tombol loading, hilangkan tombol kirim
+      btnLoading.classList.toggle('d-none');
+      btnKirim.classList.toggle('d-none');
+      fetch(scriptURL, {
+          method: 'POST',
+          body: new FormData(form)
+        })
+        .then(response => {
+          // tampilkan tombol kirim, hilangkan tombol loading
+          btnLoading.classList.toggle('d-none');
+          btnKirim.classList.toggle('d-none');
+          // tampilkan alert
+          myAlert.classList.toggle('d-none');
+          // reset form
+          form.reset();
+          console.log('Success!', response)
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
   </script>
 </body>
 
