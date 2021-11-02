@@ -339,6 +339,7 @@ footer .icon {
     padding-top: 50px;
     background: linear-gradient(to right, #654ea3, #eaafc8);
     position: relative;
+    height: 100px;
 }
 
 #footer-navmenu-container {
