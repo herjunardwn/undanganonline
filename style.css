@@ -41,6 +41,17 @@ a {
     text-decoration: none;
 }
 
+.banner-invitation {
+    font-size: 1.5rem;
+    letter-spacing: .3em;
+    color: #fff;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
 .hiasan {
     width: 100%;
     text-align: center;
@@ -102,7 +113,6 @@ h2 {
     font-size: 3rem;
     font-family: 'Satisfy', cursive;
     color: rgb(182, 150, 172);
-    padding-bottom: 15px;
 }
 
 .mempelai {
@@ -121,7 +131,7 @@ h2 {
 }
 
 .card-body {
-    box-shadow: 0px 2px 18px rgb(0 0 0 / 10%);
+    box-shadow: 0px 2px 18px rgb(0 0 0 / 12%);
 }
 
 .card-text {
@@ -194,7 +204,7 @@ span {
 .logo-prokes {
     box-sizing: border-box;
     padding: 50px;
-    box-shadow: 2px 0 35px 0 rgb(68 88 144 / 10%);
+    box-shadow: 2px 0 35px 0 rgb(68 88 144 / 12%);
     object-fit: cover;
 }
 
@@ -236,6 +246,10 @@ span {
     font-family: 'Montserrat', sans-serif;
 }
 
+.konfirmasi {
+    font-size: 1.1rem;
+}
+
 .btn-custom {
     background-color: #7356A3;
     padding: 8px 30px;
@@ -245,6 +259,11 @@ span {
 
 .btn-custom:hover {
     background-color: rgb(33, 33, 33);
+}
+
+.judul-mempelai {
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .amplop {
